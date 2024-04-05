@@ -98,7 +98,7 @@ const Index = () => {
       }
     }
     const response = await fetch(
-      "https://api-inference.huggingface.co/models/Artanis1551/bert_sentiment_trainer",
+      "https://api-inference.huggingface.co/models/dhanushbitra/bert_sentiment_trainer",
       {
         headers: { Authorization: `Bearer ${credentials.huggingface}` },
         method: "POST",
